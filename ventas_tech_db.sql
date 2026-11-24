@@ -1,5 +1,5 @@
 -- Motor utilizado: MySQL (MySQL Workbench).
--- Modelo desarrollado para la pre-entrega M3 de RetailPro.
+-- Modelo desarrollado para la pre-entrega M3 de TechStore.
 CREATE DATABASE IF NOT EXISTS Ventas_Tech_DB;
 USE Ventas_Tech_DB;
 
@@ -32,7 +32,7 @@ FOREIGN KEY (id_categoria)
 references categorias(id_categoria),
 precio DECIMAL(10,2) NOT NULL,
 stock INT DEFAULT 0,
-activo TINYINT NOT NULL
+activo TINYINT NOT NULL DEFAULT 1
 );
 
 CREATE TABLE ventas(
