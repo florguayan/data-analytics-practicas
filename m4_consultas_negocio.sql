@@ -55,8 +55,8 @@ SELECT
 FROM facturacion_por_producto
 ORDER BY total_facturado DESC;
 
-/* BLOQUE DE CIERRE
-1. El producto 1 generó $3.600, aproximadamente el 55,9% de la facturación total.
-2. Los productos 1 y 3 concentraron en conjunto aproximadamente el 76,8% de la facturación.
-3. Los cinco clientes realizaron 2 pedidos cada uno; el cliente 1 fue quien más gastó, con un total de $2.640.
-*/
+-- BLOQUE DE CIERRE
+-- 1. El producto 1 generó $3.600, aproximadamente el 55,9% de la facturación total.
+-- 2. Los productos 1 y 3 concentraron en conjunto aproximadamente el 76,8% de la facturación.
+-- 3. Los cinco clientes realizaron 2 pedidos cada uno; el cliente 1 fue quien más gastó, con un total de $2.640.
+
